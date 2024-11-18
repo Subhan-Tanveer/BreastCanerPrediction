@@ -4,7 +4,7 @@ import streamlit as st
 import pickle
 
 # Load the trained model
-loaded_model = pickle.load(open('D:/AI Classification Projects/Breast Cancer Prediction/trained_tumour.pkl', 'rb'))
+loaded_model = pickle.load(open('trained_tumour.pkl', 'rb'))
 
 # Function for user input with very simple labels
 def user_input_features():
