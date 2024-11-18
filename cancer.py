@@ -12,7 +12,7 @@ def user_input_features():
     page_title="Breast Cancer Prediction",  # Title for the browser tab
     page_icon="🔬",  # Emoji or path to an icon file
     layout="centered",  # Optional: 'centered' or 'wide'
-)
+    )
 
     page_bg_img = """
 
