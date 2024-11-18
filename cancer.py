@@ -6,13 +6,15 @@ import pickle
 # Load the trained model
 loaded_model = pickle.load(open('trained_tumour.pkl', 'rb'))
 
-# Function for user input with very simple labels
-def user_input_features():
-    st.set_page_config(
+  st.set_page_config(
     page_title="Breast Cancer Prediction",  # Title for the browser tab
     page_icon="🔬",  # Emoji or path to an icon file
     layout="centered",  # Optional: 'centered' or 'wide'
     )
+
+# Function for user input with very simple labels
+def user_input_features():
+  
 
     page_bg_img = """
 
